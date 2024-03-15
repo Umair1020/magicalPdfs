@@ -1,0 +1,223 @@
+:root{
+  --shadow2: 0 0 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.14);
+  --shadow4: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.14);
+
+}
+.ftgf7lp {
+  min-width: 68px;
+}
+
+.f1ctqxl6 {
+  background-color:#F0F0F0 ;
+}
+.AppBarComponent-module__left-nav-container__xENv9 {
+  position: fixed;
+  top: 0px;
+  height: 100%;
+  width: 70px;
+background-color: #F0F0F0;
+border: 2px solid #F0F0F0;
+}
+.f3swjwz {
+  width: 68px;
+}
+
+.f1qch9an {
+  padding-bottom: 0px;
+}
+
+.f1g0x7ka {
+  padding-top: 0px;
+}
+
+.f122n59 {
+  align-items: center;
+  font-size: 10px;
+}
+
+.f1cnd47f {
+  padding-left: 0px;
+}
+
+.fhxju0i {
+  padding-right: 0px;
+}
+.changeColor:hover{
+  color: blue;
+}
+.f1l02sjl {
+  height: 100%;
+}
+
+.f1ctqxl6 {
+  background-color: var(--colorNeutralBackground4);
+}
+
+.f1vx9l62 {
+  flex-direction: column;
+}
+
+.f22iagw {
+  display: flex;
+}
+/* div {
+  display: block;
+} */
+.f10pi13n {
+  position: relative;
+}
+.f1ozlkrg {
+  border-top-left-radius: 0px;
+}
+
+.f10ostut {
+  border-top-right-radius: 0px;
+}
+
+.f1deotkl {
+  border-bottom-left-radius: 0px;
+}
+
+.f1krrbdw {
+  border-bottom-right-radius: 0px;
+}
+
+.f19f4twv {
+  margin-bottom: 0px;
+}
+
+.f1hu3pq6 {
+  margin-top: 0px;
+}
+
+.fzki0ko {
+  height: 45px;
+}
+
+.f1m4tk7k {
+  max-width: 68px;
+}
+
+.f1sdsnyy {
+  touch-action: none;
+}
+
+.f1xqy1su {
+  user-select: none;
+}
+
+.fsuw20m {
+  min-height: 56px;
+}
+
+.f3swjwz {
+  width: 68px;
+}
+
+.fqdk4by {
+  border-bottom-width: 0px;
+}
+
+.f1rvrf73 {
+  border-left-width: 0px;
+}
+
+.f1358rze {
+  border-right-width: 0px;
+}
+
+.fre7gi1 {
+  border-top-width: 0px;
+}
+
+.f10xn8zz {
+  padding-left: 1px;
+}
+
+.f136y8j8 {
+  padding-right: 1px;
+}
+
+.f1sl3k7w {
+  padding-top: 1px;
+}
+
+.f1brlhvm {
+  padding-bottom: 1px;
+}
+
+.fhovq9v {
+  background-color: var(--colorSubtleBackground);
+}
+
+.ftgf7lp {
+  min-width: 68px;
+}
+
+.figsok6 {
+  font-weight: var(--fontWeightRegular);
+}
+
+.r1alrhcs {
+  align-items: center;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  text-decoration-line: none;
+  vertical-align: middle;
+  margin: 0px;
+  overflow: hidden;
+  background-color: var(--colorNeutralBackground1);
+  color: var(--colorNeutralForeground1);
+  border: var(--strokeWidthThin) solid var(--colorNeutralStroke1);
+  font-family: var(--fontFamilyBase);
+  outline-style: none;
+  padding: 5px var(--spacingHorizontalM);
+  min-width: 96px;
+  border-radius: var(--borderRadiusMedium);
+  font-size: var(--fontSizeBase300);
+  font-weight: var(--fontWeightSemibold);
+  line-height: var(--lineHeightBase300);
+  transition-duration: var(--durationFaster);
+  transition-property: background, border, color;
+  transition-timing-function: var(--curveEasyEase);
+}
+
+
+/* Active state styling */
+.sidebar-item.active {
+  background-color: white;
+  color: #333;
+}
+
+
+
+/* Show label on hover */
+.sidebar-item:hover::after {
+  display: block;
+}
+/* Vertical line styling */
+.sidebar-item.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 15px; /* Width of the vertical line */
+  background-color: #0078d4; /* Color of the vertical line */
+}
+
+/* Hover effect */
+.sidebar-item:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* ... your existing styles ... */
+
+/* Tooltip styling */
+
+/* Show tooltip on hover */
+.sidebar-item:hover .label-tooltip {
+  display: block;
+}

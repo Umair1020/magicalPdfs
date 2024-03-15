@@ -1,0 +1,146 @@
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contain1 {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.dropdown-item:hover {
+  background-color: #014a9c !important;
+}
+
+.customecss {
+  border: 1px solid rgb(200, 198, 198);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Adjust shadow color and intensity as needed */
+  box-sizing: border-box;
+  line-height: 1.42;
+  outline: none;
+  overflow-y: auto;
+  padding: 12px 15px;
+  tab-size: 4;
+  -moz-tab-size: 4;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  width: 100%;
+}
+.wrapperClassName{
+  width: 100%;
+}
+.customecss::-webkit-scrollbar {
+  width: 10px;
+  /* Width of the scrollbar */
+  border-radius: 20px;
+}
+
+.customecss::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Color of the track */
+}
+
+.customecss::-webkit-scrollbar-thumb {
+  background: rgb(56, 61, 161);
+  /* Color of the thumb */
+}
+
+.customecss::-webkit-scrollbar-thumb:hover {
+  background: rgb(70, 79, 235);
+  /* Color of the thumb on hover */
+}
+
+.button1 {
+  background: black;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+    width: fit-content;
+  color: #fff;
+  margin-left: 6px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 991px) {
+  .button1 {
+    background: black;
+    padding: 15px 10px !important;
+   
+    width: fit-content;
+ 
+    border-radius: 20px !important;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+}
+.buttonMain {
+  background: black;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+  /* margin-left: 10px; */
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttonText {
+  display: inline-block;
+  font-weight: 600;
+  font-family: SegoeUI-SemiBold-final, Segoe UI Semibold, SegoeUI-Regular-final, Segoe UI, "Segoe UI Web (West European)", Segoe, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  /* line-height: 48px; */
+  -webkit-font-smoothing: antialiased;
+  color: white;
+
+}
+
+.button1:hover {
+  background: #014a9c;
+}
+.buttonMain:hover {
+  background: #014a9c;
+}
+
+.arrow {
+  margin-left: 10px;
+}
+
+.answerArea {
+  margin-top: 20px;
+  border: 1px solid rgb(200, 198, 198);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Adjust shadow color and intensity as needed */
+  box-sizing: border-box;
+  line-height: 1.42;
+  outline: none;
+  overflow-y: auto;
+  padding: 12px 15px;
+  tab-size: 4;
+  -moz-tab-size: 4;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.dropdown-menu {
+    overflow-y: hidden; /* or overflow-y: auto; */
+  }
+  

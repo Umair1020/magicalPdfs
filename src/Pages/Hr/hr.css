@@ -1,0 +1,205 @@
+/*  */
+
+/* .hr h3 {
+  font-family: Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    font-size: 36px;
+    font-weight: 600;
+
+} */
+.hrHead {
+  display: inline-block;
+  font-weight: 800;
+  font-family: SegoeUI-SemiBold-final, Segoe UI Semibold, SegoeUI-Regular-final, Segoe UI, "Segoe UI Web (West European)", Segoe, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 48px;
+  -webkit-font-smoothing: antialiased;
+  color: #464FEB;
+
+}
+
+.hr h3 {
+  display: inline-block;
+  font-weight: 800;
+  font-family: SegoeUI-SemiBold-final, Segoe UI Semibold, SegoeUI-Regular-final, Segoe UI, "Segoe UI Web (West European)", Segoe, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 48px;
+  -webkit-font-smoothing: antialiased;
+  color: #464FEB;
+
+}
+
+.label {
+  /* height: 702px; */
+  width: 555px;
+}
+
+.label .summary-our-mission {
+  color: #000000;
+  font-family: var(--12-body-12-regular-font-family);
+  font-size: var(--12-body-12-regular-font-size);
+  font-style: var(--12-body-12-regular-font-style);
+  font-weight: var(--12-body-12-regular-font-weight);
+  /* height: 702px; */
+  left: 0;
+  letter-spacing: var(--12-body-12-regular-letter-spacing);
+  /* line-height: var(--12-body-12-regular-line-height); */
+  /* position: fixed; */
+  text-shadow: 0px 4px 4px #00000040;
+  /* top: 0; */
+  width: 555px;
+  height: 500px;
+}
+
+.loader1 {
+  width: 60px;
+  aspect-ratio: 4;
+  --_g: no-repeat radial-gradient(circle closest-side, #fff 90%, #0000);
+  --_g: no-repeat radial-gradient(circle closest-side, #ffffff 90%, #ffffff00);
+  background:
+    var(--_g) 0% 50%,
+    var(--_g) 50% 50%,
+    var(--_g) 100% 50%;
+  background-size: calc(100%/3) 100%;
+  animation: l7 1s infinite linear;
+}
+
+@keyframes l7 {
+  33% {
+    background-size: calc(100%/3) 0%, calc(100%/3) 100%, calc(100%/3) 100%
+  }
+
+  50% {
+    background-size: calc(100%/3) 100%, calc(100%/3) 0%, calc(100%/3) 100%
+  }
+
+  66% {
+    background-size: calc(100%/3) 100%, calc(100%/3) 100%, calc(100%/3) 0%
+  }
+}
+
+.loader2 {
+  width: 30px;
+  /* Adjust the width as needed */
+  height: 30px;
+  /* Adjust the height as needed */
+  padding: 8px;
+  border-radius: 50%;
+  background: #fff;
+  --_m:
+    conic-gradient(#0000 10%, #000),
+    linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+  mask: var(--_m);
+  -webkit-mask-composite: source-out;
+  mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+
+@keyframes l3 {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.bot-reply1 {
+  align-self: flex-start;
+  /* background-color: #4b30f1; */
+  white-space: pre-wrap;
+  font-family: Arial, inter;
+  font-size: 16px;
+  color: black;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  line-height: 1.5;
+  /* Adjust line height for professional spacing */
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .h3upload {
+    width: 70% !important;
+  }
+
+  .hr h2 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    width: 70% !important;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+.h3upload {
+  width: 40%;
+}
+
+.family {}
+
+.chatAll {
+  display: "flex" ;
+
+    appearance: "none";
+    position: "relative";
+    cursor: "pointer";
+    text-align: "center";
+   
+    white-space: "nowrap";
+    margin: "0px";
+    padding: "10px 0px";
+ 
+    color: rgb(255, 255, 255);
+    background: rgb(117, 77, 223);
+    font-family: "var(--sans)";
+    font-weight: 500;
+    font-size: "normal";
+
+    font-size: 16px;
+    border-radius: 4px;
+    border: "none";
+    width: "28%";
+}
+
+@media (max-width: 991px) {
+  .chatAll1 {
+
+
+      width: "78%" !important;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px; /* Adjust width as needed */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card.new {
+  border: 1px solid blue;
+  /* Add any other styles for new cards */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 0.9rem;
+}
